@@ -1,0 +1,92 @@
+.pricing-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 10px;
+
+}
+
+.country-card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App {
+  text-align: center;
+  padding: 20px;
+  background: whitesmoke;
+}
+/* Add the light mode styles here */
+.App.light-mode {
+background-color: #f0f0f0;
+color: #333;
+}
+
+/* Add the dark mode styles here */
+.App.dark-mode {
+background-color: #333;
+color: #fff;
+}
+
+
+.navbar {
+  background-color: white;
+  color: black;
+  border-bottom: black;
+   margin-bottom: 30px;
+   padding: 1px;
+}
+
+.navbar h1 {
+  margin-right:70% ;
+  align-items: start;
+  font-weight: 600;
+}
+
+input {
+  
+  width: 50%;
+  padding: 30px;
+  margin-top:-90%;
+  margin-right: 70%;
+  height: 0.001px;
+  background-color: white;
+  border-style: none;
+  background-image:url(https://fontawesome.com);
+ margin-bottom: 20px;
+ padding-right: 100px;
+ margin-left: 45px;
+}
+.region{
+  width: 10%;
+  height: 50px;
+  background-color: white;
+  margin-left: 70%;
+  margin-top: 70px;
+  border-style: none;
+  margin-bottom: -900px;
+}
+
+.country-details {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.country-details p {
+  margin: 5px 0;
+  font-size: 16px;
+}    
+.country-flag {
+  width: 200px;
+  height: 200px;
+}
+.button{
+  margin-left: 90%;
+  padding: auto;
+}
